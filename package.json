@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "fortune",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.8",
+    "drizzle-orm": "^0.45.4",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "postgres": "^3.4.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11",
+    "nodemon": "^3.1.14"
+  }
+}
